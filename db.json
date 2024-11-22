@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "role": "Administrator",
+      "status": "Active"
+    },
+    {
+      "name": "Abhyanand Jha",
+      "email": "abhyanandlsc@gmail.com",
+      "role": "Editor",
+      "isActive": true,
+      "id": "2"
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "Administrator",
+      "permissions": [
+        "Read",
+        "Write",
+        "Delete"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Editor",
+      "permissions": [
+        "Read",
+        "Write"
+      ]
+    }
+  ]
+}
