@@ -40,7 +40,7 @@ This project is a **Role-Based Access Control (RBAC)** User Interface designed t
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/abhi_jha910/rbac_ui.git
+git clone https://github.com/abhijha910/Role-Based-Access-Control-UI.git
 ```
 
 ### 2. Install Frontend Dependencies
@@ -48,7 +48,7 @@ git clone https://github.com/abhi_jha910/rbac_ui.git
 Navigate to the `rbac_dashboard/rbac_ui` directory:
 
 ```bash
-cd rbac_dashboard/rbac_ui
+cd Role-Based-Access-Control-UI
 npm install
 ```
 
@@ -69,7 +69,6 @@ json-server --watch db.json --port 5000
 ### 4. Start the Frontend
 
 ```bash
-cd rbac_dashboard/rbac_ui
 npm start
 ```
 
